@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular-universal-pre-render'),
+      dir: require('path').join(__dirname, './coverage/angular-sanity'),
       subdir: '.',
       reporters: [
         { type: 'html' },

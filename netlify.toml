@@ -1,7 +1,7 @@
 [build]
-  command = "npm run prerender"
+  command = "set NODE_OPTIONS=--openssl-legacy-provider && npm run prerender"
   functions = "./functions"
-  publish = "dist/angular-universal-pre-render/browser"
+  publish = "dist/angular-sanity/browser"
 [dev]
   command = "npm run start"
   functions = "./functions"
